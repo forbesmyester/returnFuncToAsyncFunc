@@ -1,0 +1,22 @@
+{
+  "name": "return_func_to_async_func",
+  "version": "0.9.0",
+  "description": "Sometimes you have a function, that you're planning to use within something like `async.waterfall` but it's wrote to be synchronous and returns a value instead of using a callback. This function will accept that function, along with a context and return an asynchronous version of that function",
+  "author": "Matthew Forrester <matt@keyboardwritescode.com>",
+  "dependencies": {
+    "requirejs": "~2.1.10"
+  },
+  "devDependencies": {
+    "jquery": "~2.1.0-beta3",
+    "expect.js": "0.2.x",
+    "mocha": "1.8.x",
+    "jshint": "~2.4.1"
+  },
+  "engines": {
+    "node": ">0.9"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/forbesmyester/return_func_to_async_func.git"
+  }
+}
